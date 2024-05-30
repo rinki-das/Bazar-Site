@@ -1,0 +1,125 @@
+/* Footer.css */
+
+.footer {
+  background-color: #eeeeee;
+  color: #000000;
+  padding: 50px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-content > div {
+  flex: 1;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.logo-section img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.logo-section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.logo-section a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #e81818;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 79px;
+}
+
+.logo-section a:hover {
+  text-decoration: underline;
+}
+
+.quick-links h3,
+.popular-categories h3,
+.contact-info h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 2px solid #e62f2f;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.quick-links ul,
+.popular-categories ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links ul li,
+.popular-categories ul li {
+  margin-bottom: 10px;
+}
+
+.quick-links ul li a,
+.popular-categories ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.quick-links ul li a:hover,
+.popular-categories ul li a:hover {
+  color: #eb1b29;
+}
+
+.contact-info address {
+  margin: 0;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.contact-info address svg {
+  margin-right: 8px;
+}
+
+.separator {
+  width: 1px;
+  background-color: #444;
+  margin: 0 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-icons > * {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #eb1c1c;
+  transition: color 0.3s ease;
+}
+
+.social-icons > *:last-child {
+  margin-right: 0;
+}
+
+.social-icons > *:hover {
+  color: #000000;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}

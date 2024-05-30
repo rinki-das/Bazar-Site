@@ -1,0 +1,140 @@
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fffcfc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #333;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form .agree-terms-label {
+    font-weight: normal;
+    font-size: 12px;
+    color: #888;
+}
+
+.signup-form .form-group {
+    margin-bottom: 25px;
+}
+
+.signup-form label {
+    font-weight: bold;
+    color: #555;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: calc(100% - 5px);
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 18px;
+    background-color: #ff0000; 
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.signup-form button:hover {
+    background-color: #000; 
+}
+
+.signup-form .continue-with {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.signup-form .social-login {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-form .social-login button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: #3b5998; /* Facebook blue */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signup-form p {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+.signup-form p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-input input {
+    padding-right: 32px;
+}
+
+.password-input svg {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+.line::before {
+    content: 'Or Continue With';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.toast-container-right-center {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    position: fixed;
+}
